@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 
             $row['roles'] === 1 ?
                 header("Location: ./admin/index.php") :
-                header("Location: ./user/index.php");
+                header("Location: ./index.php");
         } else {
             echo "the user name doesn't exist";
             // header("Location: ./index.php");

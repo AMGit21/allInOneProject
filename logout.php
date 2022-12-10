@@ -7,4 +7,4 @@ session_unset();
 session_destroy();
 // print_r($_SESSION);
 // echo "Successfully Logout";
-header("Location: ./user/index.php");
+header("Location: ./index.php");

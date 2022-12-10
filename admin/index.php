@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["roles"]) || (isset($_SESSION["roles"]) && $_SESSION["roles"] !== 1))
-    header("Location: ../user/index.php");
+    header("Location: ../index.php");
 print_r($_SESSION);
 echo gettype($_SESSION["roles"]);
 $name = $_SESSION["userName"]
